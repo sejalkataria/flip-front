@@ -7,7 +7,16 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.App-spinner{
+  background: #282c34;
+  visibility: inherit;
+  pointer-events: none;
+  display: flex;
+  color: aqua;
+  background-color: blue;
+  text-anchor: start;
+  fill-opacity: initial;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -16,9 +25,29 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:white;
+  font: oblique;
+  columns: 12;
+  font: 100;
+  right: 122;
+  align-self: auto;
+  display: none;
+  speak-as: kas;
+  letter-spacing: normal;
+  justify-content: flex-start;
+  text-emphasis: none;
+  range: auto;
+  scale: 0 0 0 0;
+  nav-down: auto;
+  margin-block-end: 0%;
+  margin-block: 12%;
+  text-align: right;
+  letter-spacing: normal;
+  display: inline;
+  speak-as: kas;
+  color: aquamarine;
+  
 }
-
 .App-link {
   color: #61dafb;
 }
